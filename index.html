@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas Populares</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Descubre las mejores peliculas del Momento</h1>
+        <label for="genre-select">Selecciona un género:</label>
+        <select id="genre-select"></select>
+        <label for="language-select">Selecciona un idioma:</label>
+        <select id="language-select">
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+        </select>
+    </header>
+    <main>
+        <div id="movie-list">
+        </div>
+        <div id="pagination">
+            <button id="prev-page" disabled>Anterior</button>
+            <button id="next-page">Siguiente</button>
+        </div>
+    </main>
+    <script src="test.js"></script>
+</body>
+</html>
